@@ -34,14 +34,14 @@ Python
 [2,2,2,1,1,0,0,1,0,1,0,2,1,0,2,1,0,2,1,1]
 
 Last Updated
-2026-07-24 18:20
+2026-07-24 18:25
 
 
 ## Solved Problems
 
 | # | Title | Difficulty | Language | Synced At |
 |---|---|---|---|---|
-| 75 | [Sort Colors](https://github.com/AniketMastAdmi/LeetDSA/blob/main/LeetCode/Medium/0075_Sort_Colors/solution.txt) | Medium | [0]
+| 75 | [Sort Colors](https://github.com/AniketMastAdmi/LeetDSA/tree/main/LeetCode/Medium/0075_Sort_Colors) | Medium | [0]
 [2,0]
 [0,0,0,1,1,1,2,2,2]
 [2,2,2,0,0,0,1,1,1]
@@ -50,7 +50,7 @@ Last Updated
 [2,2,2,2,2,1,0,0,1,1,0]
 [2,2,2,1,1,0,0,1,0,1,0,2,1,0,2,1,0,2,1,1] | 2026-07-24 |
 | 21 | [Merge Two Sorted Lists](https://github.com/AniketMastAdmi/LeetDSA/blob/main/LeetCode/Easy/0021_Merge_Two_Sorted_Lists/solution.py) | Easy | Python | 2026-07-24 |
-| 1 | [Two Sum](https://github.com/AniketMastAdmi/LeetDSA/blob/main/LeetCode/Easy/0001_Two_Sum/solution.py) | Easy | Python | 2026-07-24 |
+| 1 | [Two Sum](https://github.com/AniketMastAdmi/LeetDSA/tree/main/LeetCode/Easy/0001_Two_Sum) | Easy | Python | 2026-07-24 |
 | 13 | [Roman to Integer](https://github.com/AniketMastAdmi/LeetDSA/tree/main/LeetCode/Easy/0013_Roman_to_Integer) | Easy | Python | 2026-07-24 |
 | 35 | [Search Insert Position](https://github.com/AniketMastAdmi/LeetDSA/tree/main/LeetCode/Easy/0035_Search_Insert_Position) | Easy | 1class Solution:
 2    def searchInsert(self, nums: List[int], target: int) -> int:
