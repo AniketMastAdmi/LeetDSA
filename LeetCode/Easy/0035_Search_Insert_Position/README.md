@@ -19,7 +19,7 @@ Language: 1class Solution:
 16        return lb
 17
 Runtime: 0 ms
-Memory: 19.89
+Memory: 20.11
 MB
 
 Problem
