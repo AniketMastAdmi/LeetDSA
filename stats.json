@@ -1,10 +1,11 @@
 {
-  "total": 1,
-  "easy": 1,
+  "total": 4,
+  "easy": 4,
   "medium": 0,
   "hard": 0,
   "languages": {
-    "1class Solution:\n2    def searchInsert(self, nums: List[int], target: int) -> int:\n3        n = len(nums)\n4        low, high = 0, n-1 \n5        lb = n \n6\n7        while low <= high:\n8            mid = (low + high) // 2\n9            # lb = mid \n10            if nums[mid] >= target:\n11                lb = mid\n12                high = mid - 1\n13            else:\n14                low = mid + 1\n15\n16        return lb\n17": 3
+    "1class Solution:\n2    def searchInsert(self, nums: List[int], target: int) -> int:\n3        n = len(nums)\n4        low, high = 0, n-1 \n5        lb = n \n6\n7        while low <= high:\n8            mid = (low + high) // 2\n9            # lb = mid \n10            if nums[mid] >= target:\n11                lb = mid\n12                high = mid - 1\n13            else:\n14                low = mid + 1\n15\n16        return lb\n17": 3,
+    "Python": 4
   },
-  "lastUpdated": "2026-07-24T18:14:56.138Z"
+  "lastUpdated": "2026-07-24T18:15:57.042Z"
 }
