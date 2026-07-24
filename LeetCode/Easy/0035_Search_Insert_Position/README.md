@@ -19,7 +19,8 @@ Language: 1class Solution:
 16        return lb
 17
 Runtime: 0 ms
-Memory: N/A
+Memory: 19.89
+MB
 
 Problem
 https://leetcode.com/problems/search-insert-position/
