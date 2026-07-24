@@ -1,0 +1,12 @@
+
+        while low <= high:
+            mid = (low + high) // 2
+            # lb = mid 
+            if nums[mid] >= target:
+                lb = mid
+                high = mid - 1
+            else:
+                low = mid + 1
+
+        return lb
+        
