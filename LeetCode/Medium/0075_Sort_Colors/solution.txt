@@ -1,0 +1,16 @@
+
+        countTwos = 0
+        countOnes = 0
+        countZero = 0
+
+    
+        n = len(nums)
+        # nums.sort()
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+    def sortColors(self, nums: List[int]) -> None:
+class Solution:
+        for i in range(n):
+            if nums[i] == 0:
+                countZero = countZero + 1
