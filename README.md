@@ -32,7 +32,7 @@ Last Updated
 
 | # | Title | Difficulty | Language | Synced At |
 |---|---|---|---|---|
-| 35 | [Search Insert Position](https://github.com/AniketMastAdmi/LeetDSA/blob/main/LeetCode/Easy/0035_Search_Insert_Position/solution.txt) | Easy | 1class Solution:
+| 35 | [Search Insert Position](https://github.com/AniketMastAdmi/LeetDSA/tree/main/LeetCode/Easy/0035_Search_Insert_Position) | Easy | 1class Solution:
 2    def searchInsert(self, nums: List[int], target: int) -> int:
 3        n = len(nums)
 4        low, high = 0, n-1 
