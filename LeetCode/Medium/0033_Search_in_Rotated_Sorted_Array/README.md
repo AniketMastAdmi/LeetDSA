@@ -25,7 +25,8 @@ Language: 1class Solution:
 22        return -1
 23
 24
-Runtime: 0 ms
+Runtime: 0
+ms
 Memory: 19.42
 MB
 
@@ -60,7 +61,8 @@ The problem "Search in Rotated Sorted Array" is solved using an optimal algorith
 21                    low = mid + 1 
 22        return -1
 23
-24. The implementation efficiently handles edge cases and processes data with suitable data structures to meet LeetCode runtime (0 ms) constraints.
+24. The implementation efficiently handles edge cases and processes data with suitable data structures to meet LeetCode runtime (0
+ms) constraints.
 
 ## Time Complexity
 O(N)
