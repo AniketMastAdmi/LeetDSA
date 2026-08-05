@@ -47,6 +47,9 @@ Languages
 15
 16        return lb
 17
+2
+[[1,0],[2,0]]
+should be [0,1,2] ???
 Python
 [0]
 [2,0]
@@ -62,12 +65,9 @@ for(int i = 0; i<nums.size(); i++)
             return 1;
     }
     return 0;
-2
-[[1,0],[2,0]]
-should be [0,1,2] ???
 
 Last Updated
-2026-08-05 07:27
+2026-08-05 07:29
 
 
 ## Solved Problems
