@@ -6,10 +6,10 @@
   "languages": {
     "1class Solution:\n2    def search(self, nums: List[int], target: int) -> int:\n3        n = len(nums)\n4        low,high = 0, n - 1\n5        \n6\n7        while low <= high:\n8            mid = (low + high) // 2 \n9            if nums[mid] == target:\n10                return mid \n11            if nums[mid] <= nums[high]:\n12                if nums[mid] <= target <= nums[high]:\n13                    low = mid + 1\n14                else:\n15                    high = mid - 1\n16\n17            else:\n18                if nums[low] <= target <= nums[mid]:\n19                    high = mid - 1\n20                else:\n21                    low = mid + 1 \n22        return -1\n23\n24": 4,
     "1class Solution:\n2    def searchInsert(self, nums: List[int], target: int) -> int:\n3        n = len(nums)\n4        low, high = 0, n-1 \n5        lb = n \n6\n7        while low <= high:\n8            mid = (low + high) // 2\n9            # lb = mid \n10            if nums[mid] >= target:\n11                lb = mid\n12                high = mid - 1\n13            else:\n14                low = mid + 1\n15\n16        return lb\n17": 3,
-    "2\n[[1,0],[2,0]]\nshould be [0,1,2] ???": 8,
+    "2\n[[1,0],[2,0]]\nshould be [0,1,2] ???": 9,
     "Python": 7,
     "[0]\n[2,0]\n[0,0,0,1,1,1,2,2,2]\n[2,2,2,0,0,0,1,1,1]\n[2,2,1,1,0,0,0]\n[2,1,2,2,2,2,0,0,0]\n[2,2,2,2,2,1,0,0,1,1,0]\n[2,2,2,1,1,0,0,1,0,1,0,2,1,0,2,1,0,2,1,1]": 4,
     "for(int i = 0; i<nums.size(); i++)\n    {\n        if(nums[i] == target)\n            return 1;\n    }\n    return 0;": 1
   },
-  "lastUpdated": "2026-08-05T07:33:34.176Z"
+  "lastUpdated": "2026-08-05T07:48:14.242Z"
 }
