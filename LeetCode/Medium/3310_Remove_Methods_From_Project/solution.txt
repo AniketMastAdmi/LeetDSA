@@ -1,4 +1,19 @@
+            for v in graph[u]:
+                if not suspicious[v]:
+                    dfs(v)
+
+        dfs(k)
+
+        # Check whether any outside method calls a suspicious method
+
+        def dfs(u):
+            suspicious[u] = True
+        # Find all suspicious methods
+        suspicious = [False] * n
+        for u, v in invocations:
+            graph[u].append(v)
+
+
+        graph = [[] for _ in range(n)]
 class Solution:
-    def remainingMethods(self, n: int, k: int, invocations: List[List[int]]) -> List
-    [int]:
-        
+    def remainingMethods(self, n: int, k: int, invocations: List[List[int]]) -> List[int]:
