@@ -1,4 +1,11 @@
-class Solution:
-    def remainingMethods(self, n: int, k: int, invocations: List[List[int]]) -> List
-    [int]:
-        
+        suspicious = [False] * n
+
+        def dfs(u):
+            suspicious[u] = True
+            for v in graph[u]:
+                if not suspicious[v]:
+                    dfs(v)
+
+        dfs(k)
+
+        # Check whether any outside method calls a suspicious method
