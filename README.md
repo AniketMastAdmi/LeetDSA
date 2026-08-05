@@ -1,8 +1,8 @@
 # LeetCode Solutions
 
-Total Solved: 7
+Total Solved: 8
 Easy: 4
-Medium: 3
+Medium: 4
 Hard: 0
 
 Languages
@@ -62,15 +62,21 @@ for(int i = 0; i<nums.size(); i++)
             return 1;
     }
     return 0;
+2
+[[1,0],[2,0]]
+should be [0,1,2] ???
 
 Last Updated
-2026-08-03 06:32
+2026-08-05 07:27
 
 
 ## Solved Problems
 
 | # | Title | Difficulty | Language | Synced At |
 |---|---|---|---|---|
+| 3310 | [Remove Methods From Project](https://github.com/AniketMastAdmi/LeetDSA/blob/main/LeetCode/Medium/3310_Remove_Methods_From_Project/solution.txt) | Medium | 2
+[[1,0],[2,0]]
+should be [0,1,2] ??? | 2026-08-05 |
 | 81 | [Search in Rotated Sorted Array II](https://github.com/AniketMastAdmi/LeetDSA/blob/main/LeetCode/Medium/0081_Search_in_Rotated_Sorted_Array_II/solution.txt) | Medium | for(int i = 0; i<nums.size(); i++)
     {
         if(nums[i] == target)
